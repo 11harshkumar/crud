@@ -1,0 +1,22 @@
+.main .header{
+    display: flex;
+    font-size: 25px;
+    padding: 15px;
+    background-color: black;
+}
+.main .header .heading{
+    flex: auto;
+    color: white;
+}
+.main .header .navigation{
+    flex: initial;
+}
+.main .header .navigation ul li{
+    list-style: none;
+    display: inline;
+}
+.main .header .navigation ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}

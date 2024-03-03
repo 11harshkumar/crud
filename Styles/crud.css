@@ -1,0 +1,8 @@
+.main .content{
+    margin: 10px 20px;
+    /* background-color: grey; */
+}
+.main .content #read_data .box_data .btn{
+    padding: 5px 10px;
+    margin: 10px 0px;
+}

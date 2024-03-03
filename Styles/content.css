@@ -1,0 +1,13 @@
+.main .content{
+    /* background-color: rgb(209, 255, 255); */
+    height: auto;
+    width: auto;
+}
+.main .content #read_data{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.main .content #read_Data .box_Data{
+    /* padding: 30px; */
+}

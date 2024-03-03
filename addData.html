@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/form.css" />
+    <link rel="stylesheet" href="./Styles/body.css" />
+    <link rel="stylesheet" href="./Styles/header.css" />
+    <title>Add Data</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="heading">CRUD Application</div>
+        <div class="navigation">
+          <ul>
+            <li><a href="./addData.html">Create</a></li>
+            <li><a id="read" href="./index.html">Read</a></li>
+          </ul>
+        </div>
+      </div>
+      <form id="add_form" method="post">
+        <div class="dataContainer">
+          <div class="id">
+            <label>Enter Product Id :</label>
+            <input id="p_id" type="text" placeholder="Enter Product Id..." />
+          </div>
+          <div class="name">
+            <label>Enter Product Name :</label>
+            <input
+              id="p_name"
+              type="text"
+              placeholder="Enter Product Name..."
+            />
+          </div>
+          <div class="quantity">
+            <label>Enter Product Quantity :</label>
+            <input
+              id="p_quantity"
+              type="text"
+              placeholder="Enter Product Quantity..."
+            />
+          </div>
+          <div class="price">
+            <label>Enter Product Price :</label>
+            <input
+              id="p_price"
+              type="text"
+              placeholder="Enter Product Price..."
+            />
+          </div>
+          <div class="imageurl">
+            <label>Enter Product Image URL :</label>
+            <input
+              id="p_url"
+              type="text"
+              placeholder="Enter Product Image URL..."
+            />
+          </div>
+          <div class="btn">
+            <button id="form_btn">Submit Data</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="./Javascript/add.js"></script>
+    // <!-- <s src="./Javascript/location.js"></s
+  </body>
+</html>

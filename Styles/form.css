@@ -1,0 +1,16 @@
+form{
+    margin: 20px;
+    padding: 20px;
+}
+
+.dataContainer .id,
+.name,
+.quantity,
+.price,
+.imageurl{
+    /* display: flex; */
+    font-size: 25px;
+}
+.dataContainer .id input{
+    /* height: 20px; */
+}
