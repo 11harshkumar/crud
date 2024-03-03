@@ -15,7 +15,7 @@ async function get_data() {
             <h3>Product Quantity:${element.p_quantity}</h3>
             <h3>Product Price:${element.p_price}</h3>
             <button style="background-color:red; border-style:none" class="btn" onClick="delete_product_data('${element.id}')">Delete Product</button>
-            <button onClick="update_product_data('${element.id}')" style="background-color:blue;border-style:none" class="btn">Update Product</button>
+            <a href = './editData.html?id=${element.id}' style="background-color:blue;border-style:none;text-decoration:none;color:white" class="btn">Update Product</a>
             </div>`;
         });
             let read = document.getElementById('read_data');
